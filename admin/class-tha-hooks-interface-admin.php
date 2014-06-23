@@ -204,7 +204,8 @@ class THA_Hooks_Interface_Admin {
 	public function add_admin_notice() {
 
 		global $pagenow;
-		$page_filter = $_GET['page'];
+		$page_filter = ( isset( $_GET['page'] ) ? $_GET['page'] : false );
+
 		// Don't do anything if not THA Interface settings page
 		if ( isset( $page_filter ) ) :
 			global $current_user;
