@@ -57,6 +57,10 @@ You must have a theme that's created using standardized hooks from Theme Hook Al
 
 == Changelog ==
 
+
+= 1.1 =
+* Fixes two more undefined index notices in class-tha-hooks-interface-admin.php, props @codecandid
+
 = 1.0.1 =
 * Fixes an undefined index notice in class-tha-hooks-interface-admin.php
 
